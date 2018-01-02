@@ -1,0 +1,14 @@
+.header-container {
+  position: relative;
+  padding-top: 25em;
+  width: 100vw;
+  height: 40vh;
+  background-image: url("https://www.bestmasterofscienceinnursing.com/wp-content/uploads/2014/07/AnschutzCancerPavilion_Ext_61.jpg?x86614");
+  background-size: cover;
+  border-bottom: 2px solid $green;
+  .header-text {
+    text-align: center;
+    font-size: 26px;
+    height: 30vh;
+  }
+}

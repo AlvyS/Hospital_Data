@@ -1,0 +1,16 @@
+.navbar {
+  background-color: $green;
+  border-bottom: 2px solid $light-green;
+  .navbar-header {
+    a {
+      color: white;
+    }
+  }
+  .navbar-collapse {
+    .navbar-right {
+      .dropdown-toggle {
+        color: white;
+      }
+    }
+  }
+}

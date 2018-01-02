@@ -1,0 +1,91 @@
+.summary-container {
+  position: relative;
+  padding: 0 8em 0 8em;
+  .circle {
+    position: absolute;
+    margin-left: 2em;
+    background-color: $green;
+    border-radius: 10em;
+    height: 14em;
+    width: 14em;
+    top: -1.9em;
+    p {
+      color: white;
+      font-size: 32px;
+      text-align: center;
+      padding-top: 2.3em;
+    }
+  }
+
+  .summary-panel {
+    height: 10em;
+    border: 2px solid $green;
+    .total-row {
+      font-size: 16px;
+      padding: 0 0 1em 10em;
+      text-align: center;
+      .left-text {
+        p {
+          margin: 0em;
+        }
+      }
+      .right-text {
+        font-size: 26px;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+    .average-row {
+      padding-left: 10em;
+      text-align: center;
+      font-size: 16px;
+      .left-text {
+        p {
+          margin: 0em;
+        }
+      }
+      .right-text {
+        font-size: 26px;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+    .daycases-row {
+      padding: .5em 0 .5em 10em;
+      text-align: center;
+      .left-text {
+        p {
+          font-size: 22px;
+          margin: 0em;
+        }
+      }
+      .right-text {
+        font-size: 22px;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+    .others-row {
+      padding: .5em 0 .5em 10em;
+      text-align: center;
+      .left-text {
+        p {
+          font-size: 22px;
+          margin: 0em;
+        }
+      }
+      .right-text {
+        font-size: 22px;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+  }
+
+    .right-arrow {
+      position: absolute;
+      right: 5em;
+      bottom: 4em;
+    }
+
+}

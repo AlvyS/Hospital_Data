@@ -1,2 +1,9 @@
 // This is the top-level scss file. Import all other files in here.
+@import 'colors';
 @import 'home';
+@import './partials/navbar';
+@import './partials/header';
+@import './partials/tabs';
+@import './partials/bargraph';
+@import './partials/infocard';
+@import './partials/summary';

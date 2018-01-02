@@ -1,0 +1,24 @@
+.tabs-container {
+  padding-top: 2em;
+  .nav {
+    border-bottom: 2px solid $green;
+    a {
+      color: $green;
+      border: 2px solid $green;
+    }
+
+    li a {
+      &:hover {
+        color: white;
+        background-color: $green;
+        border: 2px solid $green;
+      }
+    }
+
+    .active a {
+      color: white;
+      background-color: $green;
+      border: 2px solid $green; 
+    }
+  }
+}
